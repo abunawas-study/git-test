@@ -52,7 +52,7 @@ for (i = 0; i < users.length; i++){
 
 //Filtering Inactive Accounts
 
-const accounts = [
+/*const accounts = [
     {name: 'Abusadiq Hamdan', isActive: true,}, 
     {name: 'Abusadiq Iman', isActive: false,}, 
     {name: 'Abusadiq Abunawas', isActive: true,}
@@ -62,4 +62,21 @@ for(i  = 0; i < accounts.length; i++){
        if(CurrentAccounts.isActive ===true){
            console.log(CurrentAccounts.name);
        }
-    }
+    }*/
+
+/* Customer Search Feature
+
+const transactions = [55.47, 48.0, 70, 190, 24.38];
+let totalTransactions = 0;
+for(i = 0; i < transactions.length; i++){
+    totalTransactions += transactions[i];
+    console.log(totalTransactions);
+}*/
+
+// Customer Search Feature
+
+const consumers = [{id: 'GHT2582', name: 'Abunawas', phone: '0551165462'}, {id: 'GHT3257', name: 'Yakubu', phone: '0533829134'}];
+function consumerMatching(name){
+    console.log(`Welcome to our consumer service ${name}`);
+}
+consumerMatching('Abunawas');
