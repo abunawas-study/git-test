@@ -75,8 +75,9 @@ for(i = 0; i < transactions.length; i++){
 
 // Customer Search Feature
 
-const consumers = [{id: 'GHT2582', name: 'Abunawas', phone: '0551165462'}, {id: 'GHT3257', name: 'Yakubu', phone: '0533829134'}];
+/*const consumers = [{id: 'GHT2582', name: 'Abunawas', phone: '0551165462'}, {id: 'GHT3257', name: 'Yakubu', phone: '0533829134'}];
 function consumerMatching(name){
     console.log(`Welcome to our consumer service ${name}`);
 }
-consumerMatching('Abunawas');
+consumerMatching('Abunawas');*/
+
